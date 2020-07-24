@@ -6,7 +6,7 @@
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceRoot}/target/debug/rusty_game.exe",
-            "args": [],
+            "args": ["3","20","20","-s"],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
