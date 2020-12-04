@@ -32,7 +32,8 @@ impl App {
         {
             // Clear the screen.
             clear(BLACK, gl);
-            grid::Grid.draw(line: &Line, draw_state: &DrawState, transform: Matrix2d, g: &mut G)
+            piston::Grid.draw(line: &Line, draw_state: &DrawState, transform: Matrix2d, g: &mut G)
+
         });
     }
 
